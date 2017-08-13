@@ -1,0 +1,128 @@
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+*/
+
+html {
+	background: url('fullbackground.png');
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	font-family: 'Droid Serif', serif;
+	font-size: 20px;
+}
+
+.headLink {
+	padding-left:  0px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(255,255,255,.3);
+	border-radius: 2vh;
+}
+
+.headLink a {
+	text-decoration: none;
+	display:inline-block;
+	font-family: 'Oswald', sans-serif;
+	width:23vw;
+	height:12vh;
+	padding: 12vw, 12vh;
+	background-color:#ffffff;
+	/*border:2px dotted #000000;*/
+	font-size: 4vw;
+	text-align: center;
+	line-height: 12vh;
+	vertical-align: middle;
+	background-color: transparent;
+	border-radius: 3vh;
+}
+
+.headLink a:link {
+	text-decoration: none; color:rgb(50,50,50); 
+}
+
+.headLink a:visited {
+	text-decoration: none; color:rgb(50,50,50); 
+}
+.headLink a:hover {
+	text-decoration: none; color:rgb(0,0,0); font-size: 4.5vw;
+	font-weight: bold;
+	/*background-color: rgba(255,255,255,.4);*/
+}
+
+hr { 
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    border-color: black;
+
+    background-color: transparent;
+}
+
+.intro {
+	padding-left: 30px;
+}
+
+.intro img {
+	display: block;
+
+	max-height: 25%;
+	max-width: 25%;
+}
+
+.intro img:hover {
+	/*Size 75% in height and width*/
+	max-height: 100%;/*720px;*/
+	max-width: 100%;/*540px; */
+}
+
+.bio {
+	padding-left: 30px;
+}
+
+.bio img {
+	display: inline-block;
+	float: right;
+	max-height: 25%;
+	max-width: 25%;
+	padding-right: 40px;
+}
+
+.outlink a {
+	text-decoration: none;
+	display:inline-block;
+	max-width:2000px;
+	max-height:1000px;
+	padding: 10px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background-color:#ffffff;
+	/*border:2px dotted #000000;*/
+	font-size: 35px;
+	text-align: center;
+	line-height: 35px;
+	vertical-align: middle;
+	background-color: transparent;
+	border-radius: 15px;
+}
+
+.outlink img {
+	max-height: 50%;
+	max-width: 50%;
+}
+
+.outlink a:link {
+	text-decoration: none; color:rgb(50,50,50); 
+}
+
+.outlink a:visited {
+	text-decoration: none; color:rgb(50,50,50); 
+}
+.outlink a:hover {
+	background-color: rgba(255,255,255,.6);
+	text-decoration: none; color:rgb(0,0,0);
+}

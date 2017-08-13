@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="resume.css">
+	<script src = "resume.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Droid+Serif" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+	<header>
+	<div class = "headLink">
+		<a href="index.html">Home</a>	
+		<a href="projects.html">Projects</a>
+		<a href="bio.html">Bio</a>	
+		<a href="resume.html">Resume</a>
+	</div>
+	</header>
+	<hr>
+
+	<div class = "outlink">
+	<a href="resume.pdf" target="_blank">Click for static resume (PDF)</a>
+	</div>
+
+
+	<!--see resume.css -->
+	<div class = "hidden_experience">
+
+	<a onmouseenter="render('contact', 'e')" onclick="render('contact', 'c')" href = "#">Contact Info</a>
+	<p id = "contact"></p>
+
+	<a onmouseenter = "render('experience', 'e')" onclick = "render('experience', 'c')"href = "#">Experience</a>
+	<p id = "experience"></p>
+
+	<a onmouseenter="render('education', 'e')" onclick="render('education', 'c')" href = "#">Education</a>
+	<p id = "education"></p>
+
+	<a onmouseenter="render('projects', 'e')" onclick="render('projects', 'c')" href = "#">Projects</a>
+	<p id = "projects"></p>
+
+	<a onmouseenter="render('research', 'e')" onclick="render('research', 'c')" href = "#">Research</a>
+	<p id = "research"></p>
+
+	<a onmouseenter="render('languages', 'e')" onclick="render('languages', 'c')" href = "#">Languages</a>
+	<p id = "languages"></p>
+
+	</div>
+</body>
+</html>

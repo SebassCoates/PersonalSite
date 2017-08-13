@@ -1,0 +1,85 @@
+.hidden_experience {
+	font-size: 10px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: lighter;
+	margin-left: 20px;
+
+	max-width: 470px;
+	padding: 10px;
+	background-color: rgba(255,255,255,.2);
+	border-radius: 2vh;
+}
+
+.hidden_experience h3 {
+	margin: 0px;
+	font-size: 35px;
+}
+
+.hidden_experience h4 {
+	margin: 0px;
+	font-size: 30px;
+}
+
+.hidden_experience h5 {
+	margin: 0px;
+	font-size: 25px;
+}
+
+.hidden_experience h6 {
+	margin: 0px;
+	font-size: 25px;
+}
+
+.hidden_experience ul {
+	margin: 0px;
+}
+
+.hidden_experience p {
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-size: 22px;
+	background-color: rgba(255,255,255,.25);
+	max-width: 470px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-radius: 10px;
+}
+
+.hidden_experience a {
+	text-decoration-style: underline;
+	text-decoration-color: black;
+	display:inline-block;
+	max-width:2000px;
+	max-height:1000px;
+	margin-top: 10px;
+	background-color:#ffffff;
+	/*border:2px dotted #000000;*/
+	font-size: 35px;
+	text-align: center;
+	line-height: 10px;
+	vertical-align: middle;
+	background-color: transparent;
+	font-weight: bold;
+}
+
+.hidden_experience a:link {
+	text-decoration-color: black;
+}
+
+.hidden_experience a:visited {
+	text-decoration-color: black;
+	color: black;
+}
+.hidden_experience a:hover {
+	text-decoration-color: black;
+}
+
+.contact a{
+	display:inline-block;
+	color: black;
+	font-size: 20px;
+	padding: 0px;
+	font-weight: normal;
+	margin: 0px;
+}
