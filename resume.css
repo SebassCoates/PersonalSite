@@ -1,33 +1,40 @@
 .hidden_experience {
-	font-size: 10px;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: lighter;
-	margin-left: 20px;
 
-	max-width: 470px;
-	padding: 10px;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+
 	background-color: rgba(255,255,255,.2);
 	border-radius: 2vh;
+	width: 70%;
+	height: 100%;
+
+	margin-left: 15%;
 }
 
 .hidden_experience h3 {
 	margin: 0px;
-	font-size: 35px;
+	font-size: 5vw;
+	text-align: center;
 }
 
 .hidden_experience h4 {
 	margin: 0px;
-	font-size: 30px;
+	font-size: 4.5vw;
+	text-align: center;
 }
 
 .hidden_experience h5 {
 	margin: 0px;
-	font-size: 25px;
+	font-size: 4vw;
+	text-align: center;
 }
 
 .hidden_experience h6 {
 	margin: 0px;
-	font-size: 25px;
+	font-size: 4vw;
+	text-align: center;
 }
 
 .hidden_experience ul {
@@ -36,31 +43,31 @@
 
 .hidden_experience p {
 	display: block;
-	margin-top: 15px;
-	margin-bottom: 20px;
-	font-size: 22px;
-	background-color: rgba(255,255,255,.25);
-	max-width: 470px;
-	padding-left: 2px;
-	padding-right: 2px;
+	width: 100%;
+	height: 100%;
+	font-size: 3.5vw;
+	background-color: rgba(255,255,255,0);
 	border-radius: 10px;
+	text-align: left;
 }
+
 
 .hidden_experience a {
 	text-decoration-style: underline;
 	text-decoration-color: black;
 	display:inline-block;
-	max-width:2000px;
-	max-height:1000px;
-	margin-top: 10px;
+	height: 100%;
+	width: 100%;
+	margin: 12vh, 10vw;
 	background-color:#ffffff;
 	/*border:2px dotted #000000;*/
-	font-size: 35px;
+	font-size: 12vh;
 	text-align: center;
-	line-height: 10px;
+	line-height: 12vh;
 	vertical-align: middle;
 	background-color: transparent;
 	font-weight: bold;
+
 }
 
 .hidden_experience a:link {
@@ -76,10 +83,41 @@
 }
 
 .contact a{
-	display:inline-block;
+	display: inline;
 	color: black;
-	font-size: 20px;
-	padding: 0px;
-	font-weight: normal;
-	margin: 0px;
+	font-size: 3.5vw;
+}
+
+.static_resume a {
+	text-decoration: none;
+	font-weight: bold;
+	height: 100%;
+	width: 100%;
+
+	display:inline-block;
+	font-size: 10vh;
+	text-align: center;
+	line-height: 10vh;
+	vertical-align: middle;
+	background-color: transparent;
+	border-radius: 2vh;
+}
+
+.static_resume a:link {
+	text-decoration: none; 
+	color: black; 
+}
+
+.static_resume a:visited {
+	text-decoration: none;
+	color: black; 
+}
+
+.static_resume a:hover {
+	background-color: rgba(255,255,255,.6);
+	text-decoration: none; color:rgb(0,0,0);
+}
+
+hr {
+	width: 	98%;
 }
