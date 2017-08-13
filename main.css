@@ -35,14 +35,15 @@ html {
 	vertical-align: middle;
 	background-color: transparent;
 	border-radius: 3vh;
+	color: black;
 }
 
 .headLink a:link {
-	text-decoration: none; color:rgb(50,50,50); 
+	text-decoration: none; color:rgb(0,0,0); 
 }
 
 .headLink a:visited {
-	text-decoration: none; color:rgb(50,50,50); 
+	text-decoration: none; color:rgb(0,0,0); 
 }
 .headLink a:hover {
 	text-decoration: none; color:rgb(0,0,0); font-size: 4.5vw;
@@ -92,6 +93,10 @@ hr {
 	padding-right: 40px;
 }
 
+.bio p {
+	font-size: 3vw;
+}
+
 .outlink a {
 	text-decoration: none;
 	display:inline-block;
@@ -108,6 +113,7 @@ hr {
 	vertical-align: middle;
 	background-color: transparent;
 	border-radius: 15px;
+	color: black;
 }
 
 .outlink img {
@@ -116,11 +122,11 @@ hr {
 }
 
 .outlink a:link {
-	text-decoration: none; color:rgb(50,50,50); 
+	text-decoration: none; color:rgb(0,0,0); 
 }
 
 .outlink a:visited {
-	text-decoration: none; color:rgb(50,50,50); 
+	text-decoration: none; color:rgb(0,0,0); 
 }
 .outlink a:hover {
 	background-color: rgba(255,255,255,.6);

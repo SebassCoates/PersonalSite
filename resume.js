@@ -89,13 +89,11 @@ hiddenText['education'] = getParagraph
 /*Projecs*/
 hiddenText['projects'] = getParagraph
 	(`<ul> 
-	<hr>
 	</ul>`); 
 
 /*Research*/
 hiddenText['research'] = getParagraph
 	(`<ul> 
-	<hr>
 	</ul>`); 
 
 /*Programming Languages*/

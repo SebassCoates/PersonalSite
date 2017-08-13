@@ -1,3 +1,8 @@
+hr {
+	width: 	98%;
+}
+
+
 .hidden_experience {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: lighter;
@@ -7,10 +12,10 @@
 
 	background-color: rgba(255,255,255,.2);
 	border-radius: 2vh;
-	width: 70%;
+	width: 75%;
 	height: 100%;
 
-	margin-left: 15%;
+	margin-left: 12.5%;
 }
 
 .hidden_experience h3 {
@@ -118,6 +123,7 @@
 	text-decoration: none; color:rgb(0,0,0);
 }
 
-hr {
-	width: 	98%;
+#projects a {
+	text-align: center;
+	color: rgb(0,0,125);
 }
