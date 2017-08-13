@@ -53,48 +53,33 @@ html {
 
 hr { 
     display: block;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     border-width: 2px;
     border-color: black;
 
     background-color: transparent;
 }
 
-.intro {
-	padding-left: 30px;
-}
-
-.intro img {
-	display: block;
-
-	max-height: 25%;
-	max-width: 25%;
-}
-
-.intro img:hover {
-	/*Size 75% in height and width*/
-	max-height: 100%;/*720px;*/
-	max-width: 100%;/*540px; */
-}
-
-.bio {
-	padding-left: 30px;
-}
-
 .bio img {
 	display: inline-block;
 	float: right;
-	max-height: 25%;
-	max-width: 25%;
-	padding-right: 40px;
+	height: 25%;
+	width: 25%;
+	padding-left: 1vw;
 }
 
 .bio p {
-	font-size: 3vw;
+	display:inline-block;
+	font-size: 4vh;
+	background-color: rgba(255,255,255,.5);
+	height: 100%;
+	width: 100%;
+	padding-left: 2px;
+	
+	vertical-align: middle;
+	line-height: 8.8vh;
+	border-radius: 1vw;
 }
 
 .outlink a {
