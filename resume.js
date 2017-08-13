@@ -18,6 +18,7 @@ hiddenText['contact'] = getParagraph
 		<li>Location: San Francisco | Boston</li> 
 		<li>Email: <a href='mailto:sebastian.coates@tufts.edu'>Sebastian.Coates@tufts.edu</a></li>
 	</ul>
+	<hr>
 	</div>`); 
 
 /*Work Experience*/
@@ -62,39 +63,57 @@ hiddenText['experience'] = getParagraph
 
 	</ul>
 
+	<hr>
 	</div>`); 
 
 
 /*Education*/
 hiddenText['education'] = getParagraph
 	(`<ul> 
-		<li>Phone Number: 415-261-8149</li> 
-		<li>Location: San Francisco | Boston</li> 
-		<li><a href='mailto:sebastian.coates@tufts.edu'>Sebastian.Coates@tufts.edu</a></li>
+		<h3>Tufts University</h3>
+		<h4>School of Engineering</h4>
+		<li>B.S. Computer Science</li>
+		<li>B.A. Applied Math</li>
+		<li>09/2016 - 05/2020</li>
+		<li>GPA: 3.96/4.00</li>
+
+		<br></br>
+
+		<h3>Marin Academy</h3>
+		<li>High School Diploma</li>
+		<li>08/2012 - 06/2016</li>
+		<li>GPA: 3.96/4.00</li>
+	<hr>
 	</ul>`); 
 
 /*Projecs*/
 hiddenText['projects'] = getParagraph
 	(`<ul> 
-		<li>Phone Number: 415-261-8149</li> 
-		<li>Location: San Francisco | Boston</li> 
-		<li><a href='mailto:sebastian.coates@tufts.edu'>Sebastian.Coates@tufts.edu</a></li>
+	<hr>
 	</ul>`); 
 
 /*Research*/
 hiddenText['research'] = getParagraph
 	(`<ul> 
-		<li>Phone Number: 415-261-8149</li> 
-		<li>Location: San Francisco | Boston</li> 
-		<li><a href='mailto:sebastian.coates@tufts.edu'>Sebastian.Coates@tufts.edu</a></li>
+	<hr>
 	</ul>`); 
 
 /*Programming Languages*/
 hiddenText['languages'] = getParagraph
 	(`<ul> 
-		<li>Phone Number: 415-261-8149</li> 
-		<li>Location: San Francisco | Boston</li> 
-		<li><a href='mailto:sebastian.coates@tufts.edu'>Sebastian.Coates@tufts.edu</a></li>
+		<li>Java</li>
+		<ul><li>Proficient</li></ul>
+		<li>C/C++</li>
+		<ul><li>Proficient</li></ul>
+		<li>Python, Tensorflow</li>
+		<ul><li>Proficient</li></ul>
+		<li>Go (golang)</li>
+		<ul><li>Knowledgeable</li></ul>
+		<li>Solidity</li>
+		<ul><li>Knowledgeable</li></ul>
+		<li>Javascript, HTML, CSS</li>
+		<ul><li>Intermediate</li></ul>
+	<hr>
 	</ul>`); 
 
 /*Add appropriate html to page*/
