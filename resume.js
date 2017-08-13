@@ -1,7 +1,5 @@
 var displayed = {};  /*for decision making - if element currently displayed*/
-var stayClosed = {};
 var hiddenText = {}; /*hidden text mapped to "target" from html/
-
 
 /*Define all html to add*/
 function getParagraph(html){
@@ -107,18 +105,11 @@ function render(target, flag) {
 
 function processElement(target, element, flag) {
 	if (!displayed[target]){
-		if (!stayClosed[target] || flag == 'c'){
-			element.appendChild(hiddenText[target]);
-			displayed[target] = true;
-		}
+		element.appendChild(hiddenText[target]);
+		displayed[target] = true;
 	}
 	else{
-		if (flag === 'c'){
-			element.removeChild(element.childNodes[0]);
-			displayed[target] = false;
-		}
-		else {
-			stayClosed[target] = true;
-		}
+		element.removeChild(element.childNodes[0]);
+		displayed[target] = false;
 	}
 }
