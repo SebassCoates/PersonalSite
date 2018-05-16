@@ -1,0 +1,2 @@
+git push
+sudo s3cmd sync -r ./ s3://aws-website-sebastiancoateshome-n4p64 --delete-removed
