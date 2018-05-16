@@ -63,7 +63,7 @@
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="page-heading">
               <h1>Projects</h1>
-              <span class="subheading"><a href='https://www.github.com/sebasscoates' id='resume'>[Github]</a> </span>
+              <span class="subheading"><a href='https://www.github.com/sebasscoates' id='resume'>[GitHub]</a> </span>
             </div>
           </div>
         </div>
@@ -76,11 +76,40 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <h2 class="section-heading">Current Focus</h2>
+            <p> <h4><a href = "https://www.github.com/sebasscoates/digon">Digon: A Graph-Based Programming Language</a></h4>
+            Digon is a graph-based programming language for naturally concurrent and well-structured code. It is currently under very early development, but my hope is to have a beta version by the end of summer 2018. 
+            </p>
+            <hr>
+
+            <h2 class="section-heading">On Hold</h2>
+            <p> <h4><a href = "https://www.github.com/sebasscoates/PL.AI">PLAI: Jazz Improvisation Generator</a></h4>
+            PLAI was originally created at Polyhack 2017 at Tufts University. The objective of this project is to apply machine learning to generate human-like jazz improvisation. Current approaches include Markov chains and the graph representation described in <b><a href="research/graphmir/report.pdf">my paper</a></b>. Using the Midi dataset gathered and refined for the paper, I hope to experiment with recurrent neural networks to achieve more human-like results than the other approaches.  
+            </p>
+
+            <p> <h4><a href = "https://www.github.com/sebasscoates/2048Flow">2048Flow: Deep Reinforcement Learning for 2048</a></h4>
+            2048Flow was originally created in the summer of 2017. The objective of this project is to teach an agent to optimally play <b><a href="https://gabrielecirulli.github.io/2048/">2048 </a></b> through reinforcement learning. This has proven to be quite challenging, as I've experimented with various deep RL models and have yet to achieve much success. My next goal is to port my Python implmentation of the 2048 environment to a C extension, so that games can be played much more quickly. From there, I'll continue to experiment with deep models.
+            </p>
             <hr>
 
             <h2 class="section-heading">Past Projects</h2>
-            <hr>
+            <p>All of my past projects can be found on <b> <a href="https://www.github.com/sebasscoates"> my GitHub page</a></b>, but I've included some of my favorites here:</p>
+            
+           
+            <p> <h4><a href = "https://www.github.com/sebasscoates/Isomorph">Isomorph: Encryption Using Graph Isomorphism</a></h4>
+            I originally created Isomorph as an independent project for the Spring 2017 iteration of COMP15 at Tufts University, and I continued to develop it the following summer. Isomorph encrypts files and provides a key. Naturally, Isomorph can also use this key to decrypt files. By representing files as graphs and leveraging the fact that each graph has N! isomorphic representations, this encryption scheme achieves a brute-force time complexity of O(N!), which scales with the file size. This project was implemented in C++ for efficient encryption and decryption, and a brute-force decryption program is also provided in <b> <a href = "https://www.github.com/sebasscoates/Isomorph"> the repository</a></b>. My official presentation of the project can be found on <b><a href = "https://www.youtube.com/watch?v=rXEWiWbQHxM"> Youtube</a></b>.
+            </p>
 
+            <p> <h4><a href = "https://www.github.com/sebasscoates/umcompile">UMCompile: C to Universal Machine Instruction Compiler</a></h4>
+            This was created as an independent project (and ultimately replaced my homework 8) for the Fall 2018 iteration of COMP40 at Tufts University. This compiler supports a subset of C that includes variables, conditionals/loops, basic function calls, and some other useful features. The goal of this project was to compile a full reverse Polish notation calculator from C to UM binary instructions, and the compiler was ultimately successful in achieving this goal. <b><a href = "contact.html">Contact me</a></b> if you would like to view the repository. Due to the nature of the project and its relation to COMP40, the repository must remain private, and I'll need department approval before I can distribute it.
+            </p>
+
+            <p> <h4><a href = "https://www.github.com/sebasscoates/graphviewer">Graph Viewer: A Lightweight, Browser-Based Graph Visualizer</a></h4>
+            The objective of this project was to create a simple, easy-to-use graph visualizer that would work with any operating system. The result is a Python script that reads graph data and generates web documents (HTML, CSS, JavaScript) for viewing the graph in-browser. No front-end framework was used, as the goal was to be as lightweight as possible. The final product is quite useful for viewing trees or directed acyclic graphs (as shown below) using Graphviewer's tree mode. Graphviewer does not handle large graphs particularly well; however, I find the project to be quite a useful complement to <b><a href="https://www.graphviz.org/">Graphviz</a></b> when I'm working with smaller scale data. As such, I consider the project completed. In the future, however, I may port the project to a web-app, support larger graphs, or better support general graphs.   
+            <img class="img-fluid" src="img/tree.png" alt="6 node directed acyclic graph. Nodes are evenly-spaced in a hierarchical manner, with the root note at the top. ">
+            Pictured: Directed acyclic graph visualization, generated by Graph Viewer.
+            </p>
+
+            <hr>
           </div>
         </div>
       </div>
