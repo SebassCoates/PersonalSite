@@ -75,19 +75,47 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <h1><a href=blogposts/summer2018/post1.html> [Recent Update] </a></h1>
+            <h1><a href=blogposts/summer2018/post2.html> [Recent Update] </a></h1>
             <hr>
-            <h2 class="section-heading">A New Personal Website</h2>
+            <h2 class="section-heading">A Two-Day Hackathon with Credit Suisse</h2>
+            <b>Disclaimer:</b> Views and opinions expressed in this post are solely my own and do not express the views or opinions of Credit Suisse or other participants.
             <p>
-            Last summer, I created my <b><a href="https://github.com/SebassCoates/PersonalSite/tree/original_design">first personal website</a></b> (the source code is still available, but it is not hosted anymore). The objective was to showcase my projects, research, and resume. I created all the style from scratch, as it was my first real web project and I didn't want to rely on a framework. The end result was a navigable website that was kind of responsive. At the same time, it was difficult to maintain and the overall design was lacking. While it was a useful project as an introduction to web development, it soon became time for a new site. 
+            On my way back to Boston for the summer, I took a two-day layover at the at the Raleigh Credit Suisse offices for Code Suisse 2018. Overall, 
+            the event was engaging and fun. Students came from across the country, and there was a good selection of projects to work on for the Hackathon.
+            A particular project proposal caught my attention, and I worked on it with <b><a href='https://www.linkedin.com/in/prabhathkotha/'> Prabhath Kotha, a student from UNC</a></b>.
+            Every group worked hard and produced impressive results; more importantly, everyone seemed to learn a lot in the process. Despite the stiff competition, the we managed to place 
+            1st in the event! Our time management, clear goals, and understanding of the project and its purpose contributed most to our success. 
             </p>
 
+
+            <h2 class="section-heading">The Project</h2>
             <p>
-            Today, I've completed a new personal website! Instead of building it completely from scratch this time, I started with a handy <b><a href="https://startbootstrap.com/template-overviews/clean-blog//">Bootstrap template</a></b>. The goals of this website are similar to my initial goals: to share my projects and research. I now have the additional goal of updating the site somewhat regularly with posts (like this one)! My hope is that this will allow me to better document progress on my work. This will also be a convenient platform to document my upcoming study abroad experience at Oxford. 
+            The goal of our project was to streamline the user experience on a Credit Suisse website. By using machine learning techniques to analyze usage patterns, we 
+            aimed to decrease the amount of clicks needed to find particular pages of interest. Our dataset included over a million data points relating to users access patterns. 
+            These data included time of day accessed, user ID, region, and more. We were ultimately tasked with building a mockup website that showcased our results. 
             </p>
 
+            <h2 class="section-heading">Project Results</h2>
             <p>
-            Ultimately, I'm quite happy with the final result! This website is a vast improvement over my previous site. I'm excited to keep the website content up-to-date as I work on new projects and research. Hopefully I'll have time to post updates (somewhat) regularly!
+            The respository for our final project can be found <b><a href='https://www.github.com/sebasscoates/locus'>here</a></b>. In includes anonymized user data, 
+            code for data analysis, code for the final mockup website, and our final presentation. Instructions for replicating our results and running the website can 
+            be found in the README. 
+            </p>
+            <p> 
+            Our basic recommendation algorithm, a multi-class (3000+) classification with KNN, was quite successful. According
+            to results on test data, there is a 70 percent chance that a user's page of interest is linked on their home page. Based on popular sites, we also recommend
+            sites the user may not have yet visited in the 'explore' section.
+            </p>
+            Our secondary recommendation algorithm aimed to analyze time-series usage patterns of all users. It recommends pages for users to visit next based on their current 
+            browsing data. The results are shown when the user visits a 'recommended' or 'explore' site. We used a basic recurrent neural network model with LSTM (long short term memory)
+            to analyze the time series data. Training on all the data was prohibitively expensive, even when renting an GPU from Google, so we limited the dataset to 10K entries. 
+            It was harder to evaluate the success of this approach, especially with the time constraint, but I'm curious to explore this more in the future. 
+            </p>
+
+            <h2 class="section-heading">Final Thoughts</h2>
+            <p> 
+            Overall, I really enjoyed the event. I learned a lot, and it was a great to apply my new skills from COMP135 (Intro to Machine Learning and Data Mining)
+            on a real-world task. I'm excited to pursue similar projects, and hopefully I'll be able to participate in more hackathons in the future. 
             </p>
             
           </div>
